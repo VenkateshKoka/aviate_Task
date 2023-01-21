@@ -1,10 +1,7 @@
-import JobEventTimeline from "./JobEventTimeline";
 import JobDetails from "./JobDetails";
 import {useState} from "react";
-import {Avatar, Menu} from "antd";
 import Image from "next/image";
 import JobEvent from "./JobEvent";
-const {Item} = Menu;
 
 
 const UserDashboard = ({user}) => {

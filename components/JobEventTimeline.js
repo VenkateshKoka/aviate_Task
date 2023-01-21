@@ -14,11 +14,11 @@ const jobEventTimeline = ({events}) => {
                 <ul>
                     {sortedTimeline.map((e) => {
                         return(
-                                <li>
-                                    <div className="step">{e[0]}</div>
-                                    <span className="circle"/>
-                                    <span className="date">{e[1].toLocaleDateString()}</span>
-                                </li>
+                            <li>
+                                <div className="step">{e[0]}</div>
+                                <span className="circle"/>
+                                <span className="date">{e[1].toLocaleDateString()}</span>
+                            </li>
                         )
                     })}
                 </ul>
