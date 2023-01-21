@@ -1,0 +1,84 @@
+{
+  "user": {
+    "jobs": [{
+      "id": "123",
+      "title": "Sales Manager",
+      "companyImage": "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "postedBy": "Unacademy",
+      "salary": "15k-18k",
+      "location": "Pune",
+      "events": {
+        "Orientation": "2023-01-13T11:20:11.141Z",
+        "MockInterview": "2023-01-17T11:20:11.141Z",
+        "Interview1": "2023-01-20T11:20:11.141Z",
+        "Interview2": "2023-01-22T11:20:11.141Z",
+        "Interview3": "2023-01-24T11:20:11.141Z",
+        "Decision": "2023-01-26T11:20:11.141Z"
+      },
+      "applied": true,
+      "recommended": false,
+      "status": "In Progress"
+    },
+      {
+        "id": "1234",
+        "title": "Marketing coordinator",
+        "companyImage": "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "postedBy": "WhiteHatJr",
+        "salary": "10k-20k",
+        "location": "Bangalore",
+        "events": {
+        },
+        "applied": false,
+        "recommended": true,
+        "status": "Not Applied"
+      },
+      {
+        "id": "1234",
+        "title": "Marketing coordinator",
+        "companyImage": "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "postedBy": "WhiteHatJr",
+        "salary": "10k-20k",
+        "location": "Bangalore",
+        "events": {
+          "Orientation": "2023-01-18T11:20:11.141Z",
+          "MockInterview": "2023-01-20T11:20:11.141Z",
+          "Interview1": "2023-01-21T11:20:11.141Z",
+          "Interview2": "2023-01-22T11:20:11.141Z",
+          "Interview3": "2023-01-23T11:20:11.141Z",
+          "Decision": "2023-01-24T11:20:11.141Z"
+        },
+        "applied": true,
+        "recommended": false,
+        "status": "Offer Made"
+      },
+      {
+        "id": "1234",
+        "title": "Marketing coordinator",
+        "companyImage": "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "postedBy": "WhiteHatJr",
+        "salary": "10k-20k",
+        "location": "Bangalore",
+        "events": {
+        },
+        "applied": false,
+        "recommended": false,
+        "status": "Not applied"
+      },
+      {
+        "id": "1234",
+        "title": "Marketing coordinator",
+        "companyImage": "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "postedBy": "WhiteHatJr",
+        "salary": "10k-20k",
+        "location": "Bangalore",
+        "events": {
+        },
+        "applied": false,
+        "recommended": false,
+        "status": "Not Applied"
+      }
+    ],
+    "firstname": "FirstName",
+    "lastname": "LastName"
+  }
+}

@@ -1,0 +1,84 @@
+@import "../base";
+$status-types: (
+        "applied":  #ff7100,
+        "recommended": green,
+        "status": purple,
+);
+.job {
+  display: flex;
+  flex-direction: column;
+}
+.jobDetails {
+  position: relative;
+  display: flex;
+  border: 1px solid #eeeeee;
+  flex-wrap: wrap;
+  min-height: 120px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  gap: 20px;
+  align-items: center;
+  transition: box-shadow .3s;
+  padding-bottom: 30px;
+
+  &:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &__title {
+      font-weight: bold;
+    }
+    &__section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      @include subtext;
+
+      &__company {
+        @include iconText;
+      }
+      &__location {
+        @include iconText;
+      }
+      &__salary {
+        @include iconText;
+      }
+    }
+  }
+
+  &__tags {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: auto;
+    min-width: 250px;
+    @media screen and (max-width: 768px) {
+      margin: auto;
+    }
+    @each $type, $gradient in $status-types {
+      &__#{$type} {
+        background: transparentize($gradient, 0.9);
+        color: $gradient;
+        padding: 8px 16px;
+        border-radius: 24px;
+
+      }
+    }
+  }
+
+  &__showTimeline {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: lightseagreen;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}

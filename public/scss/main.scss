@@ -1,0 +1,22 @@
+@import "base";
+@import "components/dashboard";
+@import "components/jobDetails";
+@import "components/jobEventTimeline";
+@import "components/jobEvent";
+
+#__next {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 1.2;
+  font-weight: 400;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}

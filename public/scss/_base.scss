@@ -1,0 +1,14 @@
+$av-color-primary: gold;
+$av-color-secondary: yellowgreen;
+$av-color-tertiary: gray;
+
+@mixin subtext {
+  font-size: 1rem;
+  color: gray;
+}
+
+@mixin iconText {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}

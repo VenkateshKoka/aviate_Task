@@ -1,0 +1,91 @@
+.dashboard {
+  margin-top: 50px;
+  &__events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 800px) {
+
+    }
+    &__upcoming {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__past {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  &__profilePic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__names {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__allJobs {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    justify-content: space-around;
+    gap: 8px;
+    @media screen and (max-width: 1024px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__sideNav {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      gap: 4px;
+      border-radius: 16px;
+      &__option {
+        display: flex;
+        padding: 8px 16px;
+        border: 1px solid lavender;
+        border-radius: 24px;
+
+        //background-color: lavender;
+        justify-content: space-between;
+        color: rebeccapurple;
+        cursor: pointer;
+        box-shadow: 1px 1px 4px rgb(133,133,133);
+        &:hover {
+          box-shadow: 2px 2px 8px rgb(133,133,133);
+        }
+        &__name {
+          //background-color: #ff7100;
+          @media screen and (max-width: 1024px) {
+            //display: none;
+          }
+        }
+
+        &__count {
+          display: flex;
+          justify-content: center;
+          width: 24px;
+          border-radius: 50%;
+        }
+      }
+      .selected {
+        background-color: transparentize(#ff7100, 0.7);
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+
+}
